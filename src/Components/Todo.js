@@ -15,6 +15,7 @@ function Todo() {
       templateList.push(todo);
       setTodoList(templateList);
       console.log(todoList);
+      setTodo('');
     }
   return (
     <div>
