@@ -12,7 +12,7 @@ function Todo() {
     const handleSubmit = (event) => {
       event.preventDefault();
       let templateList = todoList;
-      
+      templateList.push(todo);
     }
   return (
     <div>
