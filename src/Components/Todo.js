@@ -26,7 +26,7 @@ function Todo() {
         </form>
         {todoList.map((item, index) => {
           return (
-            <h3 key={index}>{todoList}</h3>
+            <h3 key={index}>{item}</h3>
           )
         })}
     </div>
