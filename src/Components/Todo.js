@@ -5,13 +5,13 @@ function Todo() {
     const [todoList, setTodoList] = useState([]);
 
     const handleChange = (event) => {
-      setTodo(event.target.value)
+      setTodo(event.target.value);
       console.log(todo);
     }
 
     const handleSubmit = (event) => {
       event.preventDefault();
-      
+
     }
   return (
     <div>
