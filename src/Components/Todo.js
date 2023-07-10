@@ -24,6 +24,7 @@ function Todo() {
             <input value={todo} onChange={handleChange} type='text'></input>
             <button type='submit'>Add Todo!</button>
         </form>
+        {}
     </div>
   )
 }
