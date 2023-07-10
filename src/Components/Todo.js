@@ -6,7 +6,7 @@ function Todo() {
 
     const handleChange = (event) => {
       setTodo(event.target.value);
-      console.log(todo);
+      // console.log(todo);
     }
 
     const handleSubmit = (event) => {
