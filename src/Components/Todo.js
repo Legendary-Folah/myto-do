@@ -11,7 +11,8 @@ function Todo() {
 
     const handleSubmit = (event) => {
       event.preventDefault();
-
+      let templateList = todoList;
+      
     }
   return (
     <div>
