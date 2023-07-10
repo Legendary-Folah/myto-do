@@ -13,6 +13,7 @@ function Todo() {
       event.preventDefault();
       let templateList = todoList;
       templateList.push(todo);
+      setTodoList(templateList);
     }
   return (
     <div>
