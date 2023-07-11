@@ -11,6 +11,7 @@ function Todo() {
 
     const handleSubmit = (event) => {
       event.preventDefault();  
+      // templateList is the new array to store the list
       let templateList = todoList;
       templateList.push(todo);
       setTodoList(templateList);
