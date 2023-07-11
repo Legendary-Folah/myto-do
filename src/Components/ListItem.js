@@ -1,8 +1,8 @@
 import React from 'react'
 
-function ListItem() {
+function ListItem(props) {
   return (
-    <h3></h3>
+    <h3><li>{props.name}</li></h3>
   )
 }
 
