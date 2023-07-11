@@ -1,4 +1,5 @@
 import React, {useState} from 'react'
+import ListItem from './ListItem';
 
 function Todo() {
     const [todo, setTodo] = useState('');
@@ -27,7 +28,7 @@ function Todo() {
         </form>
         {todoList.map((item, index) => {
           return (
-            <h3 key={index}>{item}</h3>
+            <ListItem key={index} name={item}/>
           )
         })}
     </div>
