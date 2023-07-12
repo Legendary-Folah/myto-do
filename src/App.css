@@ -20,6 +20,10 @@ input {
   font-style: italic;
 }
 
+.todoItem {
+  width: 100%;
+}
+
 
 
 
