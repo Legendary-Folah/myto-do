@@ -1,11 +1,14 @@
 body {
   font-family: monospace;
+  margin: 0;
 }
 
 .header {
   background-color: purple;
   height: 50px;
   font-size: 2em;
+  padding: 20px;
+  color: white;
 }
 
 
