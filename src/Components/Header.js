@@ -1,7 +1,7 @@
 const Header = () => {
     return (
-        <div>
-            <div>My To-Do!</div>
+        <div className="header">
+            My To-Do!
         </div>
     )
 }
