@@ -2,6 +2,12 @@ body {
   font-family: monospace;
 }
 
+.header {
+  background-color: purple;
+  height: 50px;
+  font-size: 2em;
+}
+
 
 
 
