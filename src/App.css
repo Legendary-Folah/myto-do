@@ -16,6 +16,10 @@ button {
   cursor: pointer;
 }
 
+input {
+  font-style: italic;
+}
+
 
 
 
