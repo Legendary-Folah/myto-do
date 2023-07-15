@@ -12,7 +12,7 @@ body {
   text-align: center;
 }
 
-button {
+.todobutton {
   cursor: pointer;
 }
 
@@ -23,6 +23,7 @@ input {
   border-bottom: 1px solid whitesmoke;
   font-size: 1.2em;
   text-align: center;
+  height: 50px;
 }
 
 .todoform {
@@ -30,6 +31,8 @@ input {
   margin: 0;
   margin-top: 20px;
 }
+
+
 
 
 
