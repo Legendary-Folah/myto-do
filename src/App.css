@@ -16,7 +16,7 @@ body {
   cursor: pointer;
 }
 
-input {
+.input {
   font-style: italic;
   width: 100%;
   border: none;
