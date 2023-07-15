@@ -4,7 +4,7 @@ function Form() {
   return (
     <div>
         <form className='todoform'>
-            <input placeholder='Add To-Dos...' />
+            <input className='input' placeholder='Add To-Dos...' />
             <button className='todobutton'>Add To-Do!</button>
         </form>
     </div>
