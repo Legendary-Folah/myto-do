@@ -1,14 +1,16 @@
 import React from "react";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faTrash } from '@fortawesome/free-solid-svg-icons'
 
 
 const Todo = () => {
+
     return (
         <div>
             <div>
                 <h3>Todo Item</h3>
                 <button>Del</button>
-                <FontAwesomeIcon icon='fa-solid fa-trash' />
+                <FontAwesomeIcon icon={faTrash} />
             </div>
         </div>
     )
