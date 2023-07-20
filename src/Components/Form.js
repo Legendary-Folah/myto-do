@@ -8,6 +8,7 @@ const handleChange = (event) => {
 
 const handleSubmit = (event) => {
     setTodoList([...todoList, todo]);
+    console.log(todoList)
 }
 
   return (
