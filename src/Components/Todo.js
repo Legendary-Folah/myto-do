@@ -9,7 +9,7 @@ const Todo = () => {
         <div>
             <div className="todoItem">
                 <h3>Todo Item</h3>
-                <FontAwesomeIcon icon={faTrashAlt} />
+                <FontAwesomeIcon icon={faTrashAlt} className="deletebutton"/>
             </div>
         </div>
     )
