@@ -7,7 +7,7 @@ const handleChange = (event) => {
 }
 
 const handleSubmit = (event) => {
-    
+    setTodoList([...todoList, todo]);
 }
 
   return (
