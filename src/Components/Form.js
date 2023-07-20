@@ -6,9 +6,13 @@ const handleChange = (event) => {
     setTodo(event.target.value);
 }
 
+const handleSubmit = (event) => {
+    
+}
+
   return (
     <div>
-        <form className='todoform'>
+        <form onSubmit={handleSubmit} className='todoform'>
             <input 
                 value={todo} 
                 onChange={handleChange} 
