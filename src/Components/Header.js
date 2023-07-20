@@ -4,7 +4,7 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 const Header = () => {
     return (
         <div className="header">
-            My To-Do!
+            My To-Do
             <FontAwesomeIcon icon={faNoteSticky} />
         </div>
     )
