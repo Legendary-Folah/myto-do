@@ -39,6 +39,13 @@ body {
   margin-top: 20px;
 }
 
+.todoItem {
+  margin: auto;
+  border: 2px solid whitesmoke;
+  padding: 20px;
+  margin-top: 20px;
+}
+
 
 
 
