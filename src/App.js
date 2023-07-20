@@ -2,6 +2,7 @@ import { useState } from 'react';
 import './App.css';
 import Form from './Components/Form';
 import Header from './Components/Header';
+import Todo from './Components/Todo';
 
 function App() {
 
@@ -17,6 +18,7 @@ function App() {
         todoList={todoList}
         setTodoList={setTodoList}
       />
+      <Todo />
     </div>
   );
 }
