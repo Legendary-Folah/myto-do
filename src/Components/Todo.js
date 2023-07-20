@@ -9,7 +9,6 @@ const Todo = () => {
         <div>
             <div>
                 <h3>Todo Item</h3>
-                <button>Del</button>
                 <FontAwesomeIcon icon={faTrash} />
             </div>
         </div>
