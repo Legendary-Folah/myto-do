@@ -1,6 +1,6 @@
 import React from 'react'
 
-function Form() {
+function Form({ todo, setTodo, todoList, setTodoList }) {
   return (
     <div>
         <form className='todoform'>
