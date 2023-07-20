@@ -11,7 +11,12 @@ function App() {
   return (
     <div className="App">
       <Header />
-      <Form />
+      <Form 
+        todo={todo}
+        setTodo={setTodo}
+        todoList={todoList}
+        setTodoList={setTodoList}
+      />
     </div>
   );
 }
