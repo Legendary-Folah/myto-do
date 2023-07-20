@@ -8,7 +8,7 @@ const Todo = () => {
     return (
         <div>
             <div className="todoItem">
-                <h3>Todo Item</h3>
+                <h3 className="todoname">Todo Item</h3>
                 <FontAwesomeIcon icon={faTrashAlt} className="deletebutton"/>
             </div>
         </div>
