@@ -3,12 +3,12 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faTrashAlt } from '@fortawesome/free-solid-svg-icons'
 
 
-const Todo = () => {
+const Todo = ({ todoItem }) => {
 
     return (
         <div>
             <div className="todoItem">
-                <h3 className="todoname">Todo Item</h3>
+                <h3 className="todoname">{todoItem}</h3>
                 <FontAwesomeIcon icon={faTrashAlt} className="deletebutton"/>
             </div>
         </div>
