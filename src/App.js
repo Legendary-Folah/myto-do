@@ -3,6 +3,7 @@ import './App.css';
 import Form from './Components/Form';
 import Header from './Components/Header';
 import Todo from './Components/Todo';
+import TodoList from './Components/TodoList';
 
 function App() {
 
@@ -18,7 +19,7 @@ function App() {
         todoList={todoList}
         setTodoList={setTodoList}
       />
-      <Todo />
+      <TodoList />
     </div>
   );
 }
