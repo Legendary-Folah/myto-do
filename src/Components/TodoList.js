@@ -1,6 +1,6 @@
-const TodoList = () => {
+const TodoList = ({ todoList }) => {
     return (
-        <div>Todolist</div>
+        <div>{todoList}</div>
     )
 }
 
