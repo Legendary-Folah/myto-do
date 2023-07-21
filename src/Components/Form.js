@@ -1,4 +1,4 @@
-import { faAdd } from '@fortawesome/free-solid-svg-icons';
+import { faAdd, faCheck } from '@fortawesome/free-solid-svg-icons';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import React from 'react';
 
@@ -26,7 +26,7 @@ const handleSubmit = (event) => {
             <button 
                 type='submit' 
                 className='todobutton'>
-                    <FontAwesomeIcon icon={faAdd} />
+                    <FontAwesomeIcon icon={faCheck} />
                 </button>
         </form>
     </div>
