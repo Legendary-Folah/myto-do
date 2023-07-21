@@ -2,7 +2,7 @@ import { useState } from 'react';
 import './App.css';
 import Form from './Components/Form';
 import Header from './Components/Header';
-import Todo from './Components/Todo';
+// import Todo from './Components/Todo';
 import TodoList from './Components/TodoList';
 
 function App() {
