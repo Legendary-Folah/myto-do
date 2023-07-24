@@ -3,7 +3,7 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faTrashAlt } from '@fortawesome/free-solid-svg-icons'
 
 
-const Todo = ({ todoItem, todoList }) => {
+const Todo = ({ todoItem, todoList, setTodoList }) => {
 
     const handleDelete = () => {
         todoList.filter((item) => item.id !== todoItem.id)
