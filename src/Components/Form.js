@@ -12,7 +12,7 @@ const handleChange = (event) => {
 const handleSubmit = (event) => {
     event.preventDefault();
     setTodoList([...todoList, {name: todo, id: shortid.generate() }]);
-    console.log(todoList);
+    // console.log(todoList);
 }
 
   return (
