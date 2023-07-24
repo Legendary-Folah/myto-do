@@ -19,7 +19,7 @@ const Todo = ({ todoItem }) => {
         <div>
             <div className="todoItem">
                 <input type="checkbox" className="check"/>
-                <h3 className="todoname">{todoItem}</h3>
+                <h3 className="todoname">{todoItem.name}</h3>
                 <FontAwesomeIcon icon={faTrashAlt} className="deletebutton"/>
             </div>
         </div>
