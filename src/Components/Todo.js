@@ -12,7 +12,6 @@ const Todo = ({ todoItem, todoList, setTodoList }) => {
     return (
         <div>
             <div className="todoItem">
-                <input type="checkbox" className="check"/>
                 <h3 className="todoname">{todoItem.name}</h3>
                 <FontAwesomeIcon icon={faTrashAlt} onClick={handleDelete} className="deletebutton"/>
             </div>
