@@ -2,9 +2,9 @@ import Todo from "./Todo";
 
 const TodoList = ({ todoList }) => {
     return (
-        <div>{todoList.map((todoItem, index) => {
+        <div>{todoList.map((todoItem) => {
             return (
-                <Todo key={index}todoItem={todoItem}></Todo>
+                <Todo todoItem={todoItem}></Todo>
             )
         })}</div>
     )
