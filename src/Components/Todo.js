@@ -5,16 +5,6 @@ import { faTrashAlt } from '@fortawesome/free-solid-svg-icons'
 
 const Todo = ({ todoItem }) => {
 
-    // const completedStyle = {
-    //     fontStyle: "Italic",
-    //     textDecoration: "line-through",
-    //     color: "rgb(100, 105, 110)",
-    // };
-
-    // const handleClick = (event) => {
-    //     event.target.style = completedStyle;
-    // }
-
     return (
         <div>
             <div className="todoItem">
