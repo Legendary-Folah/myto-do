@@ -6,7 +6,7 @@ import { faTrashAlt } from '@fortawesome/free-solid-svg-icons'
 const Todo = ({ todoItem, todoList, setTodoList }) => {
 
     const handleDelete = () => {
-        todoList.filter((item) => item.id !== todoItem.id)
+        setTodoList(todoList.filter((item) => item.id !== todoItem.id));
     }
 
     return (
