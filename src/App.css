@@ -22,6 +22,7 @@ body {
   font-size: 18px;
   margin-top: 10px;
   border-radius: 50%;
+  opacity: 20px;
 }
 
 .input {
