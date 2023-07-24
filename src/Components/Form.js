@@ -1,5 +1,6 @@
 import { faCheck } from '@fortawesome/free-solid-svg-icons';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { nanoid } from 'nanoid';
 import React from 'react';
 
 function Form({ todo, setTodo, todoList, setTodoList }) {
@@ -10,7 +11,7 @@ const handleChange = (event) => {
 
 const handleSubmit = (event) => {
     event.preventDefault();
-    setTodoList([...todoList, todo]);
+    setTodoList([...todoList, {name: todo, id: nanoid.generate() }]);
     // console.log(todoList);
 }
 
